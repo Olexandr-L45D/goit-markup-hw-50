@@ -637,3 +637,41 @@ text-align: left;
    fill: #f4f4fd;
    
 }
+
+.dacdrop {
+   position: fixed;
+   top: 0;
+   width: 50%;
+   height: 50%;
+   background-color: #FFFFFF;
+
+
+}
+
+.modal {
+   width: 200px;
+   min-height: 800px;
+   background-color: #f4f4fd;
+   border-radius: 10px;
+
+
+}
+
+.modal-inpyt {
+   width: 100%;
+   height: 70px;
+   border-radius: 10px;
+
+}
+
+.button {
+
+}
+
+.modal-form {
+
+}
+
+.modal-form {
+
+}
