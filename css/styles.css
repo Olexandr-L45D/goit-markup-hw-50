@@ -811,8 +811,44 @@ height: 336px;
 line-height: 1.17;
 letter-spacing: 0.04em;
 color:rgba(46, 47, 66, 0.4);
+border-radius: 4px;
 border: 1px solid rgba(46, 47, 66, 0.4);
+background-color: transparent;
+outline: transparent;
+resize: none;
+transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+margin-bottom: 10px;
+padding: 8px 16px;
+}
+.textarea-user-comment:focus{
+   border-color: #4D5AE5;
 }
 
+.radio-button {
+   margin-bottom: 24px;
+}
+
+.modal-input-privacy {
+   visually-hidden;
+
+}
+.modal-label-privacy{
+   font-size: 12px;
+   line-height: 1.17;
+   letter-spacing: 0.04em;
+   color: #8e8f99;
+}
+.modal-label-privacy-spsan {
+   width: 16px;
+   height: 16px;
+   border-radius: 2px;
+   border: 1px solid rgba(46, 47, 66, 0.4);
+   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+   display:inline-flex;
+   align-items: center;
+   justify-content: center;
+   fill: transparent;
+   
+}
 
 /*--background-color: transparent;--/
