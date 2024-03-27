@@ -699,10 +699,14 @@ text-align: left;
    cursor: pointer;
    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
    position: absolute;
-   
+   justify-content: center;
    border-radius: 50%;
-   
+}
 
+.button:hover,
+.button:focus {
+   background-color: #404bbf;
+   border: none;
 }
 
 .modal-input {
@@ -720,7 +724,8 @@ color: var(--navy-blue-modal);
 
 }
 
-.modal-input:hover {
+.modal-input:hover,
+.modal-input:focus {
    border-color: #4D5AE5;
 }
 
@@ -796,7 +801,8 @@ height: 336px;
    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-icon:hover {
+.modal-icon:hover,
+.modal-icon:focus {
    fill: #4D5AE5;
 }
 
@@ -870,6 +876,13 @@ padding: 8px 16px;
    background-color: #4D5AE5;
    border: none;
    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+input[type="checkbox"]:checked + span {
+   background-color: #404bbf;
+   border: none;
+   fill: #F4F4FD;
+   
 }
 
 /*--background-color: transparent;--/
