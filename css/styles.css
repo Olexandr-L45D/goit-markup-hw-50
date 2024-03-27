@@ -835,6 +835,7 @@ padding: 8px 16px;
 }
 
 .modal-input-privacy {
+   
    visually-hidden;
 
 }
@@ -878,11 +879,11 @@ padding: 8px 16px;
    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-input[type="checkbox"]:checked + span {
+input[type="checkbox"]:checked + label + span {
    background-color: #404bbf;
    border: none;
    fill: #F4F4FD;
-   
+
 }
 
 /*--background-color: transparent;--/
