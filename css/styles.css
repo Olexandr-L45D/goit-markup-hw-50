@@ -869,7 +869,9 @@ padding: 8px 16px;
 
 .modal-input-privacy:focus + .modal-label-privacy + .modal-label-privacy-spsan
  {
-   fill: var(--navy-blue);
+   background-color: #404bbf; 
+   border: none;
+   fill: #F4F4FD;
    
 }
 
