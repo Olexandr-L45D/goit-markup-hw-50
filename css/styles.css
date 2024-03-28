@@ -863,6 +863,12 @@ padding: 8px 16px;
    color: #4d5ae5;
 }
 
+.modal-input-privacy:focus + .modal-label-privacy + .modal-label-privacy-spsan
+ {
+   fill: var(--navy-blue);
+   
+}
+
 .button-modal-close {
    display: block;
    min-width: 169px;
@@ -876,6 +882,7 @@ padding: 8px 16px;
    cursor: pointer;
    background-color: #4D5AE5;
    border: none;
+   margin: 0, auto;
    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
