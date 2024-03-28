@@ -669,13 +669,17 @@ text-align: left;
 
 
 .button {
-background-color: rgba(46, 47, 66, 0.7);
- transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+   position: absolute;
+   fill: transparent;
+   stroke: #404040;
+   transform: translateY(-50%);
+   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .button:hover,
 .button:focus {
    background-color: #404bbf;
    border: none;
+   color: #404bbf;
 }
 
 .button-icon {
@@ -703,12 +707,6 @@ background-color: rgba(46, 47, 66, 0.7);
    position: absolute;
    justify-content: center;
    border-radius: 50%;
-}
-
-.button:hover,
-.button:focus {
-   background-color: #404bbf;
-   border: none;
 }
 
 .modal-input {
