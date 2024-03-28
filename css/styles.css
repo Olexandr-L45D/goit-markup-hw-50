@@ -846,6 +846,7 @@ padding: 8px 16px;
    color: #8e8f99;
 }
 .modal-label-privacy-spsan {
+   position: absolute;
    width: 16px;
    height: 16px;
    border-radius: 2px;
@@ -854,6 +855,7 @@ padding: 8px 16px;
    display:inline-flex;
    align-items: center;
    justify-content: center;
+   text-align: center;
    fill: transparent;
 
 }
@@ -869,8 +871,14 @@ padding: 8px 16px;
    
 }
 
-.button-modal-close {
-   display: block;
+.button-modal-send-close {
+   position: absolute;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+   border-radius: 4px;
+   padding: 16px 32px;
    min-width: 169px;
    height: 56px;
    font-family: "Roboto", sans-serif;
@@ -883,6 +891,7 @@ padding: 8px 16px;
    background-color: #4D5AE5;
    border: none;
    margin: 0, auto;
+
    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
