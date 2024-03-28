@@ -637,8 +637,62 @@ text-align: left;
    fill: #f4f4fd;
    
 }
+/*--MODAL Form Foter--*/
 
-/*--MODAL Form--*/
+.modal-sabtitle-footer {
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 1.5;
+   letter-spacing: 0.02em;
+   color:#ffffff;
+   margin-left: 0;
+   margin-bottom: 16px;  
+  }
+
+.modal-form-footer {
+   display: flex;
+   gap: 24px;
+}
+
+.modal-input-footer {
+   width: 264px;
+   height: 40px;
+   border: 1px solid #ffffff;
+   background-color: transparent;
+   font-size: 12px;
+   line-height: 2;
+   letter-spacing: 0.04em;
+   padding-left: 16px;
+   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+   border-radius: 4px;
+   color: #FFFFFF;
+
+}
+
+.E-mail {
+   color: #FFFFFF;
+}
+
+.button-modal-footer {
+min-width: 165px;
+height: 40px;
+display: flex;
+justify-content: center;
+align-items: center;
+font-family: "Roboto", sans-serif ;
+font-size: 16px;
+font-weight: 500;
+line-height: 1.5;
+letter-spacing: 0.04em;
+color: #ffffff;
+cursor: pointer;
+background-color: #4D5AE5;
+border: none;
+border-radius: 4px;
+
+}
+
+/*--MODAL Form Free--*/
 
 .dacdrop {
    position: fixed;
@@ -667,10 +721,6 @@ text-align: left;
    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-
-.button {
-   
-}
 
 .button-icon {
    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -774,7 +824,6 @@ display: block;
 margin-bottom: 4px;
 }
 
-
 .modal-sabtitle {
    font-family: var(--font-family);
    font-weight: 500;
@@ -787,10 +836,6 @@ margin-bottom: 4px;
    margin-bottom: 16px;
      
   }
-
-.modal-sabtitle-bloc {
-   
-}  
 
 .modal-form {
 display: block;
@@ -846,16 +891,14 @@ padding: 8px 16px;
    color: #8e8f99;
 }
 .modal-label-privacy-spsan {
-   display: inline-flex;
    width: 16px;
    height: 16px;
    border-radius: 2px;
    border: 1px solid rgba(46, 47, 66, 0.4);
    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-   display:inline-flex;
+   display: inline-flex;
    align-items: center;
    justify-content: center;
-   text-align: center;
    fill: transparent;
 
 }
@@ -877,11 +920,6 @@ padding: 8px 16px;
 
 .button-modal-send-close {
    display: block;
-   align-items: center;
-   justify-content: center;
-   text-align: center;
-   border-radius: 4px;
-   padding: 16px 32px;
    min-width: 169px;
    height: 56px;
    font-family: "Roboto", sans-serif;
@@ -893,8 +931,7 @@ padding: 8px 16px;
    cursor: pointer;
    background-color: #4D5AE5;
    border: none;
-   margin: 0, auto;
-
+   margin: auto;
    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -905,4 +942,5 @@ input[type="checkbox"]:checked + label + span {
 
 }
 
-/*--background-color: transparent; placeholder="Phone/Enter email" --/
+/*-border-radius: 4px;
+   padding: 16px 32px;-background-color: transparent; placeholder="Phone/Enter email" --/
