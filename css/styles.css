@@ -839,8 +839,8 @@ padding: 8px 16px;
 }
 
 .modal-input-privacy {
-   
-   visually-hidden;
+   visu
+   visually-hidden: transparent;
 
 }
 .modal-label-privacy{
