@@ -859,7 +859,9 @@ padding: 8px 16px;
    fill: transparent;
 
 }
-.modal-icon-us-pr{}
+.modal-icon-us-pr{
+   position: absolute;
+}
 
 .link-privacy-container{
    color: #4d5ae5;
@@ -873,7 +875,7 @@ padding: 8px 16px;
 
 .button-modal-send-close {
    position: absolute;
-   display: flex;
+   
    align-items: center;
    justify-content: center;
    text-align: center;
