@@ -805,7 +805,7 @@ height: 336px;
 }
 
 .modal-field-comment {
-   margin-bottom: 10px;
+   margin-bottom: 24px;
 }
 
 .modal-input-wrap {
@@ -847,7 +847,6 @@ padding: 8px 16px;
 }
 .modal-label-privacy-spsan {
    display: inline-flex;
-   position: absolute;
    width: 16px;
    height: 16px;
    border-radius: 2px;
@@ -877,7 +876,7 @@ padding: 8px 16px;
 }
 
 .button-modal-send-close {
-   display: flex;
+   display: block;
    align-items: center;
    justify-content: center;
    text-align: center;
