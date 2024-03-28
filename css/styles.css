@@ -705,6 +705,7 @@ text-align: left;
 .but-modal-close:focus {
    background-color: #404bbf;
    border: none;
+   fill: #ffffff;
    
 }
 
@@ -723,13 +724,12 @@ color: var(--navy-blue-modal);
 }
 
 .modal-input:hover,
-.modal-input:focus {
+.modal-input:focus + {
    border-color: #4D5AE5;
 }
 
 .modal-input:focus + .modal-icon {
-   fill: var(--navy-blue);
-   
+   fill: #4D5AE5;   
 }
 
 .modal-icon {
@@ -805,7 +805,7 @@ height: 336px;
 }
 
 .modal-field-comment {
-   margin-bottom: 16px;
+   margin-bottom: 10px;
 }
 
 .modal-input-wrap {
@@ -833,7 +833,7 @@ padding: 8px 16px;
 }
 
 .privacy-container {
-   margin-bottom: 24px;
+   margin-bottom: 10px;
 }
 
 .modal-input-privacy {
@@ -846,6 +846,7 @@ padding: 8px 16px;
    color: #8e8f99;
 }
 .modal-label-privacy-spsan {
+   display: inline-flex;
    position: absolute;
    width: 16px;
    height: 16px;
@@ -867,7 +868,7 @@ padding: 8px 16px;
    color: #4d5ae5;
 }
 
-.modal-input-privacy:focus + .modal-label-privacy + .modal-label-privacy-spsan
+.modal-input-privacy:checked + .modal-label-privacy + .modal-label-privacy-spsan
  {
    background-color: #404bbf; 
    border: none;
@@ -876,8 +877,7 @@ padding: 8px 16px;
 }
 
 .button-modal-send-close {
-   position: absolute;
-   
+   display: flex;
    align-items: center;
    justify-content: center;
    text-align: center;
