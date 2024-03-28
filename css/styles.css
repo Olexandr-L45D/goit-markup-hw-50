@@ -690,6 +690,7 @@ text-align: left;
    display: flex;
    align-items: center;
    background-color: #E7E9FC;
+   background-color: transparent;
    border: 1px solid rgba(0, 0, 0, 0.1);
    padding: 0;
    cursor: pointer;
