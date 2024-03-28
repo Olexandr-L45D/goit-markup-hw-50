@@ -669,17 +669,7 @@ text-align: left;
 
 
 .button {
-   position: absolute;
-   fill: transparent;
-   stroke: #404040;
-   transform: translateY(-50%);
-   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.button:hover,
-.button:focus {
-   background-color: #404bbf;
-   border: none;
-   color: #404bbf;
+   
 }
 
 .button-icon {
@@ -692,7 +682,7 @@ text-align: left;
    
 }
 
-.modal-close {
+.bt-modal-close {
    top: 24px;
    right: 24px;
    width: 24px;
@@ -707,6 +697,14 @@ text-align: left;
    position: absolute;
    justify-content: center;
    border-radius: 50%;
+}
+
+
+.bt-modal-close:hover,
+.bt-modal-close:focus {
+   background-color: #404bbf;
+   border: none;
+   
 }
 
 .modal-input {
