@@ -640,7 +640,7 @@ text-align: left;
 /*--MODAL Form Foter--*/
 
 .dacdrop-footer {
-   position: absolute;
+   
    position: fixed;
    right: 0;
    bottom: 0;
@@ -664,6 +664,15 @@ text-align: left;
    
    display: flex;
    gap: 24px;
+}
+
+.modal-label-footer {
+font-size: 12px;
+line-height: 1.17;
+letter-spacing: 0.04em;
+color:#8e8f99;
+display: block;
+margin-bottom: 4px;
 }
 
 .modal-input-footer {
