@@ -366,9 +366,8 @@ address {
    letter-spacing: 0.02em;
    text-align: center;
    color: #434455;
-   margin: 0;
-   padding: 0 0 32px 0;
-   
+   margin-bottom: 8px;
+ 
 }
 
 .icon-group-link {
@@ -536,14 +535,9 @@ footer {
 }
 
 .footer-container {
-   height: 312px;
-   padding-left: 150px;
-   margin-left: 150px;
-   box-sizing: border-box;
    display: flex;
    align-items: baseline;
-   margin: 0px;
-   padding: 0px;
+   
 }
 .style {
    display: flex; 
@@ -640,10 +634,8 @@ text-align: left;
 /*--MODAL Form Foter--*/
 
 .dacdrop-footer {
-   display:inline-block;
-   
-   width: 453px;
-   height: 80px;
+   margin-left: 200px;
+   margin-right: 0px;
    background-color: rgba(46, 47, 66, 0.4);
    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -791,7 +783,7 @@ height: 40px;
 background-color: transparent;
 outline: transparent;
 transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-margin-bottom: 10px;
+
 padding-left: 38px;
 color: var(--navy-blue-modal);
 
@@ -864,8 +856,7 @@ margin-bottom: 4px;
 .modal-form {
 display: block;
 border-radius: 4px;
-width: 360px;
-height: 336px;
+
 
 }
 
@@ -894,7 +885,7 @@ background-color: transparent;
 outline: transparent;
 resize: none;
 transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-margin-bottom: 10px;
+display: block;
 padding: 8px 16px;
 }
 .textarea-user-comment:focus{
@@ -959,11 +950,15 @@ padding: 8px 16px;
    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-input[type="checkbox"]:checked + label + span {
+.modal-input-privacy[type="checkbox"]:checked + .modal-label-privacy + .modal-label-privacy-spsan {
    background-color: #404bbf;
    border: none;
    fill: #F4F4FD;
 
+}
+
+.visually-hidden {
+   visibility: hidden;
 }
 
 /*-border-radius: 4px;
