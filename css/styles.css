@@ -897,7 +897,7 @@ padding: 8px 16px;
 }
 
 .modal-input-privacy {
-   
+   visibility: hidden;
 }
 .modal-label-privacy{
    font-size: 12px;
@@ -950,9 +950,7 @@ padding: 8px 16px;
 
 }
 
-.visually-hidden {
-   visibility: hidden;
-}
+
 
 /*-border-radius: 4px;
    padding: 16px 32px;-background-color: transparent; placeholder="Phone/Enter email" --/
