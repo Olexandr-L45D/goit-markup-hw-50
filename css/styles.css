@@ -790,7 +790,7 @@ color: var(--navy-blue-modal);
 }
 
 .modal-input:hover,
-.modal-input:focus + {
+.modal-input:focus {
    border-color: #4D5AE5;
 }
 
@@ -865,7 +865,7 @@ border-radius: 4px;
 }
 
 .modal-field-comment {
-   margin-bottom: 24px;
+   margin-bottom: 16px;
 }
 
 .modal-input-wrap {
@@ -893,7 +893,7 @@ padding: 8px 16px;
 }
 
 .privacy-container {
-   margin-bottom: 10px;
+   margin-bottom: 24px;
 }
 
 .modal-input-privacy {
@@ -925,13 +925,6 @@ padding: 8px 16px;
    color: #4d5ae5;
 }
 
-.modal-input-privacy:checked + .modal-label-privacy + .modal-label-privacy-spsan
- {
-   background-color: #404bbf; 
-   border: none;
-   fill: #F4F4FD;
-   
-}
 
 .button-modal-send-close {
    display: block;
